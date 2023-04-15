@@ -39,27 +39,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              // SizedBox(
-              //   height: 20,
-              // ),
-              // buttonItem("assets/google.svg", "Continue with Google", 25,
-              //     () async {
-              //   // await authClass.googleSignIn(context);
-              // }),
-              // SizedBox(
-              //   height: 15,
-              // ),
-              // buttonItem("assets/phone.svg", "Continue with Mobile", 30, () {
-              //   // Navigator.push(context,
-              //   //     MaterialPageRoute(builder: (builder) => PhoneAuthPage()));
-              // }),
-              // SizedBox(
-              //   height: 18,
-              // ),
-              // Text(
-              //   "Or",
-              //   style: TextStyle(color: Colors.white, fontSize: 18),
-              // ),
               SizedBox(
                 height: 28,
               ),
@@ -162,49 +141,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
       ),
     );
   }
-
-  // Widget buttonItem(
-  //     String imagepath, String buttonName, double size, Function onTap) {
-  //   return InkWell(
-  //     // onTap = onTap,
-  //     onTap: () {},
-  //     child: Container(
-  //       width: MediaQuery.of(context).size.width - 60,
-  //       height: 60,
-  //       child: Card(
-  //         color: Colors.black,
-  //         elevation: 8,
-  //         shape: RoundedRectangleBorder(
-  //           borderRadius: BorderRadius.circular(15),
-  //           side: BorderSide(
-  //             width: 1,
-  //             color: Colors.grey,
-  //           ),
-  //         ),
-  //         child: Row(
-  //           mainAxisAlignment: MainAxisAlignment.center,
-  //           children: [
-  //             SvgPicture.asset(
-  //               imagepath,
-  //               height: size,
-  //               width: size,
-  //             ),
-  //             SizedBox(
-  //               width: 15,
-  //             ),
-  //             Text(
-  //               buttonName,
-  //               style: TextStyle(
-  //                 color: Colors.white,
-  //                 fontSize: 17,
-  //               ),
-  //             ),
-  //           ],
-  //         ),
-  //       ),
-  //     ),
-  //   );
-  // }
 
   Widget textItem(
       String labeltext, TextEditingController controller, bool obscureText) {
